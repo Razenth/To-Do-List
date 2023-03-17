@@ -1,7 +1,5 @@
 const ContainerTodo=document.querySelector('#contenedorTodito')
-// const elementos=document.querySelector('#lista')
-// const entrada=document.querySelector('#entrada')
-// const agregar=document.querySelector('#agregar')
+
 
 // Estableciendo el HTML
 const headerCont=document.createElement('div')
