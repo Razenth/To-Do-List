@@ -29,6 +29,9 @@ ContainerTodo.append(elementos)
 
 // Botón Agregar
 agregar.addEventListener('click',()=>{
+    if(entrada.value==''){
+        alert('Debe ingresar contenido en su tarea')
+    }else{
     const tarea=document.createElement('div')
     tarea.className='tarea'
     tarea.textContent=`${entrada.value}`
@@ -38,6 +41,8 @@ agregar.addEventListener('click',()=>{
 
     tarea.appendChild(borrarTarea)
     elementos.append(tarea)
+    console.log(entrada.value)
+    }
 })
 
 // Botón Borrar
