@@ -91,8 +91,6 @@ html, body{
     display: none;
 }
 
-
-
 .lista{
     display: flex;
     flex-direction: column;
